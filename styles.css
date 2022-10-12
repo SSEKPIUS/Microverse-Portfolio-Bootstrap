@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500&family=Poppins&family=Roboto:wght@700&display=swap');
+html {
+ box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+  
+body {
+    font-family: 'sora', serif; /* stylelint-disable-line */
+    margin: 0;
+    overflow-x: hidden !important;
+}
+
+.bgdark {
+    background: #3e3c3c;
+}
+
+.bgdarker {
+    background: #1c1a19;
+}
+
+.topnav {
+    color: #FFFFFF;
+}
+
+.topnav nav .name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.topnav nav  ul {
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 20px;
+}
+
+.headline-section {
+    background-image: url("img/Illustration-header@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.landing h1 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 82px;
+    color: #f55800;
+}
+
+.landing h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.landing p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 10px 0;
+    color: #f4f5f7;
+    width: 90%;
+}
+
+@media all and (max-width: 768px) {
+    .topnav nav .name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .landing h1 {
+        font-size: 38px;
+        line-height: 64px;
+        letter-spacing: 0.37px;
+    }
+    
+    .landing h2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .landing p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .headline-section {
+        background-image: url("img/illustration-header-mobile.png");
+        background-size: auto;
+        background-position-y: bottom;
+        height: 50em !important;
+    }
+
+    .headline-section > div > div,
+    .headline-section > div > div > h1,
+    .headline-section > div > div > h2,
+    .headline-section > div > div > p {
+        width: 100% !important;
+    }
+
+}
