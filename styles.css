@@ -82,6 +82,21 @@ body {
   width: 90%;
 }
 
+.image1 {
+    background-image: url("img/ImgPlaceholder1.png");
+    background-repeat: no-repeat;
+}
+
+.image2 {
+  background-image: url("img/ImgPlaceholder2.png");
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  background-image: url("img/ImgPlaceholder3.png");
+  background-repeat: no-repeat;
+}
+
 @media all and (max-width: 768px) {
   .topnav nav .name {
     font-weight: 700;
